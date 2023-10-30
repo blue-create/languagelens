@@ -9,6 +9,7 @@ import re
 
 
 sys.path.append(str(Path(__file__).resolve().parent.parent))
+
 from modules import __page_setup__
 
 # PAGE SETUP

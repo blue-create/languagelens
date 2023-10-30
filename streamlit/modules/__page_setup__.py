@@ -1,13 +1,15 @@
 import streamlit as st
 from PIL import Image
 import base64
+import os
 
 
 def page_setup(layout="centered"):
-    im = Image.open("streamlit/media/favicon.ico")
+    os.chdir("stremalit")
+    im = Image.open("media/favicon.ico")
     st.set_page_config(
         page_title="LanguageLens",page_icon=im,layout=layout)
-    add_logo("streamlit/media/Logo_L_Lens-Logo.png")
+    add_logo("media/Logo_L_Lens-Logo.png")
     streamlit_style = """
 			<style>
 			@import url('https://fonts.googleapis.com/css2?family=Roboto');
