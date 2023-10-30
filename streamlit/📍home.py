@@ -6,10 +6,11 @@ import sys
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from itertools import compress
 import re
+import os
 
 
 sys.path.append(str(Path(__file__).resolve().parent.parent))
-
+st.write(os.listdir())
 from modules import __page_setup__
 
 # PAGE SETUP
