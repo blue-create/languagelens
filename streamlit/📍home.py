@@ -34,10 +34,10 @@ def load_tokenizer():
     return AutoTokenizer.from_pretrained("bert-base-german-cased")
 @st.cache_resource
 def load_gen_model():
-    return AutoModelForSequenceClassification.from_pretrained("best_model_general",num_labels=len(labels_gen),id2label={idx:label for idx, label in enumerate(labels_gen)},label2id= {label:idx for idx, label in enumerate(labels_gen)})
+    return AutoModelForSequenceClassification.from_pretrained("streamlit/best_model_general",num_labels=len(labels_gen),id2label={idx:label for idx, label in enumerate(labels_gen)},label2id= {label:idx for idx, label in enumerate(labels_gen)})
 @st.cache_resource 
 def load_nat_model():
-    return AutoModelForSequenceClassification.from_pretrained("best_model_nationalities",num_labels=2,id2label={idx:label for idx, label in enumerate(labels_nat)},label2id= {label:idx for idx, label in enumerate(labels_nat)})
+    return AutoModelForSequenceClassification.from_pretrained("streamlit/best_model_nationalities",num_labels=2,id2label={idx:label for idx, label in enumerate(labels_nat)},label2id= {label:idx for idx, label in enumerate(labels_nat)})
 
 tokenizer = load_tokenizer()
 trainer_nat = load_nat_model()
