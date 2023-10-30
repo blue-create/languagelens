@@ -5,7 +5,7 @@ import os
 
 
 def page_setup(layout="centered"):
-    os.chdir("stremalit")
+    os.chdir("streamlit")
     im = Image.open("media/favicon.ico")
     st.set_page_config(
         page_title="LanguageLens",page_icon=im,layout=layout)
