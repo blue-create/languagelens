@@ -7,7 +7,7 @@ def page_setup(layout="centered"):
     im = Image.open("streamlit/media/favicon.ico")
     st.set_page_config(
         page_title="LanguageLens",page_icon=im,layout=layout)
-    add_logo("media/Logo_L_Lens-Logo.png")
+    add_logo("streamlit/media/Logo_L_Lens-Logo.png")
     streamlit_style = """
 			<style>
 			@import url('https://fonts.googleapis.com/css2?family=Roboto');
