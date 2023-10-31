@@ -22,6 +22,8 @@ def load_kontext():
     st.write("**⚠️ Sensationalismus**")
     st.markdown("<p style='text-align: center;'>Sie waren laut zu hören, die Hilfeschreie der 23-jährigen Frau. Selbst auf der gegenüberliegenden Seite der Reindelstraße rissen sie Leute aus dem Tiefschlaf</p>", unsafe_allow_html=True)
     st.write("Sensationalismus kann dazu führen, dass die Ernsthaftigkeit und Relevanz von Partnerschaftsgewalt heruntergespielt wird. Opfer von Partnerschaftsgewalt könnten dadurch das Gefühl haben, dass ihre Erfahrungen nicht angemessen wahrgenommen werden.")
+
+    st.write("  \n  \nAußerdem kann sensationalistische Berichterstattung stereotype Bilder von Opfern und Tätern verstärken, die der Realität nicht gerecht werden. Dies kann die öffentliche Wahrnehmung von Partnerschaftsgewalt beeinflussen und die Vorstellung verstärken, dass bestimmte Faktoren oder Charakteristika Gewalt rechtfertigen könnten.  \n  \nSensationalistische Berichterstattung kann das Bewusstsein für komplexe psychologische, emotionale und soziale Dynamiken, die mit Partnerschaftsgewalt verbunden sind, beeinträchtigen. Dies erschwert die Fähigkeit, das Problem in seiner ganzen Tiefe zu verstehen.")
     st.markdown('''
 <div style="border: 2px solid #E6E6E6;background-color:#E6E6E6; border-radius: 5px; padding: 10px 30px 10px 10px; margin:10px 30px 30px 10px; text-align: center;">
     <blockquote style="font-style: italic;">
@@ -30,7 +32,6 @@ def load_kontext():
     <p style="text-align: right;font-size:small;">Tanja Bourges, Leiterin der Beratungsstellen des Frauen- und Mädchennotrufs Rosenheim e.V.</p>
 </div>
 ''', unsafe_allow_html=True)
-    st.write("  \n  \nAußerdem kann sensationalistische Berichterstattung stereotype Bilder von Opfern und Tätern verstärken, die der Realität nicht gerecht werden. Dies kann die öffentliche Wahrnehmung von Partnerschaftsgewalt beeinflussen und die Vorstellung verstärken, dass bestimmte Faktoren oder Charakteristika Gewalt rechtfertigen könnten.  \n  \nSensationalistische Berichterstattung kann das Bewusstsein für komplexe psychologische, emotionale und soziale Dynamiken, die mit Partnerschaftsgewalt verbunden sind, beeinträchtigen. Dies erschwert die Fähigkeit, das Problem in seiner ganzen Tiefe zu verstehen.")
     st.markdown("<br>", unsafe_allow_html=True)
     st.write("**⚠️ Verstörende Sprache**")
     st.write("Opfer von Partnerschaftsgewalt könnten sich durch reißerische Berichterstattung und detaillierte Beschreibungen von Gewalt erneut traumatisiert fühlen. Sensationelle Beschreibungen ihrer Erfahrungen könnten ihre psychische Belastung verschlimmern.  \n  \nBeachte: Graphische/ Detaillierte Sprache kann von Relevanz sein, um deutlich zu machen, was Opfern passiert und klarzustellen, wie aggressiv und gewalttätig häusliche Gewalt sein kann. Allerdings muss unterschieden werden, was journalistisch wichtig ist, um die Situation genau zu beschreiben und was eine unnötige Detaillierung wäre, die die Würde des Opfers verletzt und/oder einen Versuch darstellt, eine emotionale Reaktion des Lesers zu provozieren.")
