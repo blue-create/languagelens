@@ -5,7 +5,7 @@ import os
 
 
 def page_setup(layout="centered"):
-    im = Image.open("../media/favicon.ico")
+    im = Image.open("/streamlit/media/favicon.ico")
     st.set_page_config(
         page_title="LanguageLens",page_icon=im,layout=layout)
     add_logo("media/Logo_L_Lens-Logo.png")
