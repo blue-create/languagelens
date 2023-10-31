@@ -41,21 +41,7 @@ def load_kontext():
 </div>
 ''', unsafe_allow_html=True)
     st.write("\n  \nWenn Du eine grafische Beschreibung für journalistisch relevant und angebracht hältst, überlege Dir, eine Triggerwarnung auszusprechen. ")
-    st.markdown("<br>", unsafe_allow_html=True)
-    st.write("**⚠️ Schilderung der Verantwortung**")
-    st.write("Die Schilderung der Verantwortung des Opfers deutet an, dass Opfer für die Gewalt zum Teil mitverantwortlich sind oder dass sie die Situation selbst provoziert haben. Dies führt zu einer Schuldumkehr.")
-
-    st.markdown('''
-<div style="border: 2px solid #E6E6E6;background-color:#E6E6E6; border-radius: 5px; padding: 10px 30px 10px 10px; margin:10px 30px 30px 10px; text-align: center;">
-    <blockquote style="font-style: italic;">
-Es bedarf überlegten und sehr klaren Formulierungen mit eindeutiger Positionierung, wer die Verantwortung für die ausgeübte Gewalt trägt. Viele Artikeln implizieren eine Mitschuld der Betroffenen und geben ihr zwischen den Zeilen eine Mitverantwortung für das Geschehene. Das ist fatal für betroffene Frauen, die solche Artikel lesen, und realitätsverzerrend für den gesellschaftliche Blick auf von Gewalt Betroffene.                
-    </blockquote>
-    <p style="text-align: right;font-size:small;">Tanja Bourges, Leiterin der Beratungsstellen des Frauen- und Mädchennotrufs Rosenheim e.V.</p>
-</div>
-''', unsafe_allow_html=True)
-    st.write("\n  \nIndem die Schuld den Opfern zugeschrieben wird, wird die Verantwortung der Täter für ihr gewalttätiges Verhalten verharmlost. Infolgedessen besteht die Gefahr, dass Täter weniger zur Rechenschaft gezogen werden und die eigentlichen Ursachen der Gewalt vernachlässigt werden.  \n  \nOpfer könnten sich aufgrund von Schuldgefühlen und Stigmatisierung davor scheuen, Hilfe oder Unterstützung zu suchen. Dies kann ihre Möglichkeiten, aus der Gewaltsituation herauszukommen, stark einschränken.")
-    st.markdown("<br>", unsafe_allow_html=True)
-   
+    st.markdown("<br>", unsafe_allow_html=True)   
     st.write("**⚠️ Nennung von Nationalitäten**")
     st.write("Wenn Nationalitäten genannt werden, lenkt dies oft von den eigentlichen strukturellen und sozialen Ursachen von Partnerschaftsgewalt ab. Diese komplexen Ursachen können durch eine vereinfachte Betonung auf Nationalitäten nicht angemessen vermittelt werden.  \n  \nDie Nennung von Nationalitäten kann rassistische und diskriminierende Haltungen verstärken, indem sie die Idee unterstützt, dass Gewalt von bestimmten ethnischen oder kulturellen Gruppen häufiger begangen wird.")
     st.markdown("<br>", unsafe_allow_html=True)
