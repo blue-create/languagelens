@@ -24,10 +24,10 @@ labels_gen=['Domestic Violence','Graphisch','Sensationalistisch','Statement of r
 FEEDBACK={"Domestic Violence":"Keine problematische Sprache gefunden!",
           "":"Keine problematische Sprache gefunden!",
           "Graphisch": "**Verstörende Sprache** Detaillierte Beschreibungen von Gewalt können auf Leser traumatisierend wirken. Überlege dir, ob es journalistisch wichtig ist, die Situation genau zu beschreiben und gegebenenfalls eine Triggerwarnung auszusprechen.",
-          "Sensationalistisch":"**Senationalistische Sprache** kann durch den Fokus auf spektakuläre Aspekte von den eigentlichen Ursachen und der Problematik von häuslicher Gewalt ablenken",
+          "Sensationalistisch":"**Sensationalistische Sprache** kann durch den Fokus auf spektakuläre Aspekte von den eigentlichen Ursachen und der Problematik von häuslicher Gewalt ablenken",
           "Support Service":"**Hilfsangebote**  bieten konkrete Informationen und Ressourcen für Menschen, die von häuslicher Gewalt betroffen sind. Dies kann Opfern helfen, Unterstützung zu finden und aus gefährlichen Situationen herauszukommen.",
           "Statistic":"**Statistiken** liefern objektive und faktenbasierte Informationen über das Ausmaß und die Prävalenz von häuslicher Gewalt. Sie helfen dabei, ein genaues Bild der Realität zu vermitteln.",
-          "Nationality":"**Die Erwähnung von Nationlitäten** kann die öffentliche Wahrnehmung verzerren und zur Verstärkung rassistischer Stereotypen führen. "
+          "Nationality":"**Die Erwähnung von Nationalitäten** kann die öffentliche Wahrnehmung verzerren und zur Verstärkung rassistischer Stereotypen führen. "
           }
 
 @st.cache_resource
