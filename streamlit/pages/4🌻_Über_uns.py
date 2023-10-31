@@ -30,14 +30,15 @@ for pic, text in zip(PICS, INTRO_TEXTS):
     
 st.subheader("Credits")
 st.write("Wir bedanken uns ganz herzlich bei allen Menschen, die dieses Projekt möglich gemacht haben: ")
-st.write("- Olaya Argüeso")
-st.write("- Gregor Wiedemann")
-st.write("- Rahka Baskaran")
-st.write("- &effect")
-st.write("- Ronny Patz")
-st.write("- Sukayna Younger-Khan")
 st.write("- Dem Team beim MIZ Babelsberg")
 st.write("- Dem Team und Beirat von Frontline")
+st.write("- &effect")
+st.write("- Gregor Wiedemann")
+st.write("- Rahka Baskaran")
+st.write("- Ronny Patz")
+st.write("- Sukayna Younger-Khan")
+st.write("- Olaya Argüeso")
+
 
 
 
