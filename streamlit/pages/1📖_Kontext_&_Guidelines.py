@@ -20,6 +20,7 @@ def load_kontext():
     st.subheader("Worauf muss man in der Berichterstattung zu Partnerschaftsgewalt achten? ")
     st.markdown("<br>", unsafe_allow_html=True)
     st.write("**⚠️ Sensationalismus**")
+    st.markdown("<p style='text-align: center;'>Sie waren laut zu hören, die Hilfeschreie der 23-jährigen Frau. Selbst auf der gegenüberliegenden Seite der Reindelstraße rissen sie Leute aus dem Tiefschlaf</p>", unsafe_allow_html=True)
     st.write("Sensationalismus kann dazu führen, dass die Ernsthaftigkeit und Relevanz von Partnerschaftsgewalt heruntergespielt wird. Opfer von Partnerschaftsgewalt könnten dadurch das Gefühl haben, dass ihre Erfahrungen nicht angemessen wahrgenommen werden.")
     st.markdown('''
 <div style="border: 2px solid #E6E6E6;background-color:#E6E6E6; border-radius: 5px; padding: 10px 30px 10px 10px; margin:10px 30px 30px 10px; text-align: center;">
