@@ -8,9 +8,9 @@ from modules import __page_setup__
 
 # PAGE SETUP
 
-__page_setup__.page_setup()
+#__page_setup__.page_setup()
 
-@st.cache_data
+#@st.cache_data
 def load_kontext():
     st.title("📖 Kontext & Guidelines")
     st.subheader("Warum ist die Berichterstattung über Partnerschaftsgewalt so wichtig?")
@@ -20,7 +20,14 @@ def load_kontext():
     st.subheader("Worauf muss man in der Berichterstattung zu Partnerschaftsgewalt achten? ")
     st.markdown("<br>", unsafe_allow_html=True)
     st.write("**⚠️ Sensationalismus**")
-    st.markdown("<p style='text-align: center;'>Sie waren laut zu hören, die Hilfeschreie der 23-jährigen Frau. Selbst auf der gegenüberliegenden Seite der Reindelstraße rissen sie Leute aus dem Tiefschlaf</p>", unsafe_allow_html=True)
+    st.write('''
+    <p style="font-family: Courier;">
+        "Sie waren laut zu hören, die Hilfeschreie der 23-jährigen Frau. Selbst auf der gegenüberliegenden Seite der Reindelstraße rissen sie Leute aus dem Tiefschlaf."
+    </p>''', unsafe_allow_html=True)
+    st.write('''
+    <p style="font-family: Courier;">
+        "Ehetragödie nimmt ein dramatisches Ende."
+    </p>''', unsafe_allow_html=True)
     st.write("Sensationalismus kann dazu führen, dass die Ernsthaftigkeit und Relevanz von Partnerschaftsgewalt heruntergespielt wird. Opfer von Partnerschaftsgewalt könnten dadurch das Gefühl haben, dass ihre Erfahrungen nicht angemessen wahrgenommen werden.")
 
     st.write("  \n  \nAußerdem kann sensationalistische Berichterstattung stereotype Bilder von Opfern und Tätern verstärken, die der Realität nicht gerecht werden. Dies kann die öffentliche Wahrnehmung von Partnerschaftsgewalt beeinflussen und die Vorstellung verstärken, dass bestimmte Faktoren oder Charakteristika Gewalt rechtfertigen könnten.  \n  \nSensationalistische Berichterstattung kann das Bewusstsein für komplexe psychologische, emotionale und soziale Dynamiken, die mit Partnerschaftsgewalt verbunden sind, beeinträchtigen. Dies erschwert die Fähigkeit, das Problem in seiner ganzen Tiefe zu verstehen.")
@@ -34,7 +41,13 @@ def load_kontext():
 ''', unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
     st.write("**⚠️ Verstörende Sprache**")
+    st.write('''
+    <p style="font-family: Courier;">
+        "Mehrere Stiche mit voller Wucht in den Rücken, in das Gesäß, in den Bauch, in die Brust, in die Schultern und in den Rumpf getroffen, dabei wurden Rippen gebrochen und Organe verletzt und durchtrennt."
+    </p>''', unsafe_allow_html=True)
     st.write("Opfer von Partnerschaftsgewalt könnten sich durch reißerische Berichterstattung und detaillierte Beschreibungen von Gewalt erneut traumatisiert fühlen. Sensationelle Beschreibungen ihrer Erfahrungen könnten ihre psychische Belastung verschlimmern.  \n  \nBeachte: Graphische/ Detaillierte Sprache kann von Relevanz sein, um deutlich zu machen, was Opfern passiert und klarzustellen, wie aggressiv und gewalttätig häusliche Gewalt sein kann. Allerdings muss unterschieden werden, was journalistisch wichtig ist, um die Situation genau zu beschreiben und was eine unnötige Detaillierung wäre, die die Würde des Opfers verletzt und/oder einen Versuch darstellt, eine emotionale Reaktion des Lesers zu provozieren.")
+    st.write("\n  \nWenn Du eine grafische Beschreibung für journalistisch relevant und angebracht hältst, überlege Dir, eine Triggerwarnung auszusprechen. ")
+
     st.markdown('''
 <div style="border: 2px solid #E6E6E6;background-color:#E6E6E6; border-radius: 5px; padding: 10px 30px 10px 10px; margin:10px 30px 30px 10px; text-align: center;">
     <blockquote style="font-style: italic;">Es muss erzählt werden, was Menschen erleiden müssen und wie schlimm es wirklich ist - aber die Sprache soll sachlich und nüchtern sein, nicht reißerisch wie in einem Krimi.
@@ -42,9 +55,12 @@ def load_kontext():
     <p style="text-align: right;font-size:small;">Birte, Überlebende von häuslicher Gewalt</p>
 </div>
 ''', unsafe_allow_html=True)
-    st.write("\n  \nWenn Du eine grafische Beschreibung für journalistisch relevant und angebracht hältst, überlege Dir, eine Triggerwarnung auszusprechen. ")
     st.markdown("<br>", unsafe_allow_html=True)   
     st.write("**⚠️ Nennung von Nationalitäten**")
+    st.write('''
+    <p style="font-family: Courier;">
+        "Nach einem blutigen Beziehungsdrama ist ein Syrer (33) in Aachen wegen Totschlags zu zehn Jahren Freiheitsstrafe verurteilt worden."
+    </p>''', unsafe_allow_html=True)
     st.write("Wenn Nationalitäten genannt werden, lenkt dies oft von den eigentlichen strukturellen und sozialen Ursachen von Partnerschaftsgewalt ab. Diese komplexen Ursachen können durch eine vereinfachte Betonung auf Nationalitäten nicht angemessen vermittelt werden.  \n  \nDie Nennung von Nationalitäten kann rassistische und diskriminierende Haltungen verstärken, indem sie die Idee unterstützt, dass Gewalt von bestimmten ethnischen oder kulturellen Gruppen häufiger begangen wird.")
     st.markdown("<br>", unsafe_allow_html=True)
     st.write("**✅ Statistiken**")
