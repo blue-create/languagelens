@@ -8,9 +8,9 @@ from modules import __page_setup__
 
 # PAGE SETUP
 
-#__page_setup__.page_setup()
+__page_setup__.page_setup()
 
-#@st.cache_data
+@st.cache_data
 def load_kontext():
     st.title("📖 Kontext & Guidelines")
     st.subheader("Warum ist die Berichterstattung über Partnerschaftsgewalt so wichtig?")
