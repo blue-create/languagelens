@@ -4,12 +4,10 @@ from pathlib import Path
 
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 from modules import __page_setup__
-
-
 # PAGE SETUP
-
 __page_setup__.page_setup()
 
+#PAGE CONTENT
 @st.cache_data
 def load_kontext():
     st.title("📖 Kontext & Guidelines")
