@@ -83,6 +83,11 @@ Authentisch und ehrlich zu schreiben kann wirklich jemanden helfen und was bewir
     <p style="text-align: right;font-size:small;">Birte, Überlebende von häuslicher Gewalt</p>
 </div>
 ''', unsafe_allow_html=True)
+    st.subheader("🗞️ Der deutsche Pressekodex fordert: " )
+    st.write("- 'Die Achtung vor der Wahrheit, die Wahrung der Menschenwürde und die wahrhaftige Unterrichtung der Öffentlichkeit sind oberste Gebote der Presse.'")
+    st.write("- 'Die Sorgfaltspflicht verlangt, bei grafischen Darstellungen irreführende Verzerrungen auszuschließen.'")
+    st.write("- 'Es widerspricht journalistischer Ethik, mit unangemessenen Darstellungen in Wort und Bild Menschen in ihrer Ehre zu verletzen. Die Presse verzichtet auf eine unangemessen sensationelle Darstellung von Gewalt, Brutalität und Leid. Die Presse beachtet den Jugendschutz.'")
+    st.write("- 'Unangemessen sensationell ist eine Darstellung, wenn in der Berichterstattung der Mensch zum Objekt, zu einem bloßen Mittel, herabgewürdigt wird. Dies ist insbesondere dann der Fall, wenn über einen sterbenden oder körperlich oder seelisch leidenden Menschen in einer über das öffentliche Interesse und das Informationsinteresse der Leser hinausgehenden Art und Weise berichtet wird.'")
     st.subheader("📚 Weitere Guidelines und Tipps")
     st.write("Hier findest Du weitere Resources zum Thema wie man besser über Partnerschaftsgewalt berichten kann:")
     st.write("- [Kein Familiendrama](https://www.journalist.de/startseite/detail/article/kein-familiendrama-berichterstattung-ueber-femizide-und-der-umgang-mit-ueberlebenden-und-angehoerigen): Berichterstattung über Femizide und der Umgang mit Überlebenden und Angehörigen (www.journalist.de) ")
