@@ -192,6 +192,8 @@ if st.button("Artikel überprüfen"):
         st.subheader("Dein Input")
     with feedback:
         st.subheader("Feedback")
+        st.write("**Es besteht ein hohes Risiko von:**")
     start_analysis(article)
+st.write("Das KI-Modell klassifiziert Artikelparagraphen mit einer Genauigkeit von ~80%.")
 st.markdown(f"Mehr Informationen zur Frage, warum die Berichterstattung zu Partnerschaftsgewalt wichtig ist und worauf man achten soll, erfährst Du [hier](Kontext_&_Guidelines)")
    
