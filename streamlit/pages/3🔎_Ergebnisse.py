@@ -21,7 +21,7 @@ def findings():
 
     st.write("Das Volumen der Artikel steigt tendenziell zu zwei Zeitpunkten im Jahr: rund um den Internationalen Frauentag am 8. März und den Internationalen Tag zur Beseitigung von Gewalt gegen Frauen am 25. November. ")
     
-    HtmlFile = open("media/timeline.html", 'r', encoding='utf-8')
+    HtmlFile = open("streamlit/media/timeline.html", 'r', encoding='utf-8')
     source_code = HtmlFile.read()
     components.html(source_code,height=400, width=800)
 
@@ -33,34 +33,34 @@ def findings():
 
     st.subheader("Welche Zeitungen publizieren zu Partnerschaftsgewalt?")
     st.write("**Der Großteil der Artikel - 70,5 % - wird in regionalen Publikationen veröffentlicht**, die restlichen 29,5 % in überregionalen Zeitungen.")
-    HtmlFile = open("media/nat_reg.html", 'r', encoding='utf-8')
+    HtmlFile = open("streamlit/media/nat_reg.html", 'r', encoding='utf-8')
     source_code = HtmlFile.read()
     components.html(source_code, height=450, width=800)
     
     st.write("Obwohl regionale Zeitungen weitaus häufiger über Partnerschaftsgewalt berichten als überregionale Zeitungen, ist die Häufigkeit, mit der sie potenziell schädliche Formulierungen verwenden oder in ihre Artikel einbauen, etwas geringer.")
-    HtmlFile = open("media/nat_reg_comp.html", 'r', encoding='utf-8')
+    HtmlFile = open("streamlit/media/nat_reg_comp.html", 'r', encoding='utf-8')
     source_code = HtmlFile.read()
     components.html(source_code, height=500, width=800)
 
     # st.subheader("Wie groß ist der Anteil an schädlicher Sprache?")
-    # HtmlFile = open("media/timeline.html", 'r', encoding='utf-8')
+    # HtmlFile = open("streamlit/media/timeline.html", 'r', encoding='utf-8')
     # source_code = HtmlFile.read()
     # components.html(source_code, height=600, width=800)
 
     st.subheader("Wie häufig kommt schädliche Sprache vor?")
     st.write("In **einem von zehn Artikeln über Partnerschaftsgewalt wird eine sensationsheischende Sprache verwendet.** Dies birgt das Risiko, Gewalttaten als Liebestragödie oder als eifersüchtige Leidenschaftsakt zu verharmlosen oder zu romantisieren.")
     st.write("In **einem von zwölf Berichten wird grafische Sprache verwendet**, die manchmal notwendig ist, um die Schwere der Gewalt zu vermitteln, aber bei übermäßiger Nutzung die Lesenden retraumatisieren und die Würde des Opfers beeinträchtigen kann und **immer von einer Triggergefahr-Warnung begleitet sein sollte.**")
-    HtmlFile = open("media/categories.html", 'r', encoding='utf-8')
+    HtmlFile = open("streamlit/media/categories.html", 'r', encoding='utf-8')
     source_code = HtmlFile.read()
     components.html(source_code, height=400, width=800)
 
     st.subheader("Wie häufig sind nützliche Inhalte in Artikeln zu Partnerschaftsgewalt?")
     st.write("**73,4 % der Artikel enthalten keine Hotline**, die die Opfer anrufen können, wenn sie durch den Inhalt des Artikels betroffen sind - eine grundsätzliche Empfehlung von Experten und Expertinnen des Sektors.")
-    HtmlFile = open("media/helpline.html", 'r', encoding='utf-8')
+    HtmlFile = open("streamlit/media/helpline.html", 'r', encoding='utf-8')
     source_code = HtmlFile.read()
     components.html(source_code, height=400, width=800)
     st.write("**62 % enthalten keine statistischen Angaben**, die ein wesentlicher Bestandteil eines jeden Berichts sind, um zu zeigen, dass der berichtete Vorfall kein Einzelfall ist, sondern Teil eines systemischen Problems.")
-    HtmlFile = open("media/stats.html", 'r', encoding='utf-8')
+    HtmlFile = open("streamlit/media/stats.html", 'r', encoding='utf-8')
     source_code = HtmlFile.read()
     components.html(source_code, height=400, width=800)
 findings()
