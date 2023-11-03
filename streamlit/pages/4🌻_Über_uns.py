@@ -24,7 +24,7 @@ PICS=["vic.jpg","balinh.jpg","johanna.jpg","kat.jpg"]
 for pic, text in zip(PICS, INTRO_TEXTS):
     im_col,text_col,=st.columns([1,3])
     with im_col:
-        st.image("media/"+pic)
+        st.image("streamlit/media/"+pic)
     with text_col:
         st.write(text)
     
