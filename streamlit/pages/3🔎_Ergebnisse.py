@@ -12,10 +12,19 @@ from modules import __page_setup__
 __page_setup__.page_setup()
 
 # PAGE CONTENT
-@st.cache_resource
+@st.cache_resource(experimental_allow_widgets=True) 
 def findings():
     st.title("🔎 Ergebnisse")
     st.write("Die folgende Analyse bespricht die Resultate der trainierten Text-Modelle, wie im Bereich 'Kontext & Guidelines' beschrieben. Artikel wurden zuerst nach Inhalt klassifiziert um die Artikel herauszufiltern, bei denen es um Partnerschaftsgewalt geht. Wenn mindestens 10% der Paragraphen eines Artikels von Partnerschaftgewalt handeln, wird der Text auf schädliche Inhalte überprüft. ")
+    
+    with open("streamlit/media/Frontline_report.pdf", "rb") as pdf_file:
+        PDFbyte = pdf_file.read()
+    
+    st.download_button(label="Vollen Bericht herunterladen",
+                    data=PDFbyte,
+                    file_name="Deutsche Mediensprache zu Partnerschaftsgewalt_Bericht_Frontline.pdf",
+                    mime='application/octet-stream')
+    
     st.subheader("Wann und wie häufig wird zu Partnerschaftsgewalt veröffentlicht?")
     st.write("Die deutsche Presse berichtet täglich über Partnerschaftsgewalt. Laut unseren Recherchen wurden zwischen 2018 und 2022 insgesamt um die 31.800 Artikel veröffentlicht, in denen mindestens 10% der Absätze explizit von Partnerschaftsgewalt handeln. Das entspricht einem Durchschnitt von **etwas mehr als 17 Artikeln pro Tag.**")
 
