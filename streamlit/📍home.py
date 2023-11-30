@@ -197,3 +197,10 @@ if st.button("Artikel überprüfen"):
 st.write("Das KI-Modell klassifiziert Artikelparagraphen mit einer Genauigkeit von ~80%.")
 st.markdown(f"Mehr Informationen zur Frage, warum die Berichterstattung zu Partnerschaftsgewalt wichtig ist und worauf man achten soll, erfährst Du [hier](Kontext_&_Guidelines)")
    
+with open("streamlit/media/Frontline_report.pdf", "rb") as pdf_file:
+    PDFbyte = pdf_file.read()
+    
+st.download_button(label="Vollen Bericht herunterladen",
+                   data=PDFbyte,
+                   file_name="Deutsche Mediensprache zu Partnerschaftsgewalt_Bericht_Frontline.pdf",
+                   mime='application/octet-stream')

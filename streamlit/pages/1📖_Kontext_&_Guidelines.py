@@ -15,6 +15,15 @@ def load_kontext():
     st.write("Medienberichterstattung hat einen bewiesenen Einfluss darauf, wie wir als Gesellschaft über ein Thema denken. Insbesondere bei sensiblen Themen wie Partnerschaftsgewalt macht die Sprache und das Framing eines Geschehens einen großen Unterschied. 'Framing' bezeichnet die Art und Weise, wie Informationen präsentiert werden, um die Sichtweise und Reaktion der Menschen zu beeinflussen. Dabei werden bestimmte Aspekte hervorgehoben, um eine bestimmte Perspektive zu fördern.")
     st.write("Genauere Einblicke dazu gibt zum Beispiel die Studie [Rezeption medialer Frames in der Berichterstattung über Gewalt gegen Frauen](https://www.lfsh.de/files/Materialien/Rezeption%20medialer%20Frames.pdf) von M. L. Teichgräber und L. Mußlick. In der Studie untersuchen die Autor*innen , wie bestimmte Blickwinkel und Schwerpunkte in den Berichten - das Framing - beeinflussen können, wie die Menschen über Gewalt gegen Frauen denken. Das Framing betont verschiedene Aspekte, wie zum Beispiel, wer schuld ist oder wie man das Problem lösen kann. Die Studie zeigt, dass die Art, wie die Medien über Gewalt berichten, die Meinung der Öffentlichkeit und sogar politische Reaktionen beeinflussen kann. Manche Frames können dazu führen, dass Gewalt als individuelles Problem gesehen wird, während andere auf gesellschaftliche Ursachen hinweisen.")
     st.write("Die Studie macht sehr deutlich, wie wichtig die Wortwahl, Schwerpunkte und Framing in Berichterstattung zur Partnerschaftsgewalt sind. ")
+    
+    with open("streamlit/media/Frontline_report.pdf", "rb") as pdf_file:
+        PDFbyte = pdf_file.read()
+    
+    st.download_button(label="Vollen Bericht herunterladen",
+                    data=PDFbyte,
+                    file_name="Deutsche Mediensprache zu Partnerschaftsgewalt_Bericht_Frontline.pdf",
+                    mime='application/octet-stream')
+
     st.subheader("Worauf muss man in der Berichterstattung zu Partnerschaftsgewalt achten? ")
     st.markdown("<br>", unsafe_allow_html=True)
     st.write("**⚠️ Sensationalismus**")
