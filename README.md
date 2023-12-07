@@ -1,7 +1,7 @@
 
-# LangLens
+# LanguageLens
 
-LangLens ist eine Streamlit-WebApp, die Medienschaffenden helfen soll besser über das Thema Partnerschaftsgewalt zu schrieben.  
+LanguageLens ist eine Streamlit-WebApp, die Medienschaffenden helfen soll besser über das Thema Partnerschaftsgewalt zu schrieben.  
 
 In der WebApp kam man seinen Artikel zu Partnerschaftsgewalt einfügen und bekommt Feedback ob schädliche oder nützliche Sprache vorkommt bzw. was verbessert werden kann. 
 
